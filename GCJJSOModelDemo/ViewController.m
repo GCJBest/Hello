@@ -24,6 +24,7 @@
 }
 
 - (void)testJXJSON1 {
+    //###########################123124123123
     NSString *jsonString = @"{\"id\":\"10\", \"country\":\"Germany\", \"dialCode\": 49, \"isInEurope\":true}";
     CountryModel *model = [[CountryModel alloc] initWithString:jsonString error:nil];
     NSLog(@"%@",model.id);
