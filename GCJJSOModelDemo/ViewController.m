@@ -11,6 +11,7 @@
 #import "OrderModel.h"
 #import "ProductModel.h"
 #import "OrderModel1.h"
+#import "MYClass.h"
 
 @interface ViewController ()
 
@@ -20,11 +21,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MYClass *myClass = [MYClass new];
+    NSLog(@"我是 Developer 分支的内容");
     [self testJXJSON2];
 }
 
 - (void)testJXJSON1 {
     //###########################123124123123
+    //我是 Developer 分支的内容
     NSString *jsonString = @"{\"id\":\"10\", \"country\":\"Germany\", \"dialCode\": 49, \"isInEurope\":true}";
     CountryModel *model = [[CountryModel alloc] initWithString:jsonString error:nil];
     NSLog(@"%@",model.id);
