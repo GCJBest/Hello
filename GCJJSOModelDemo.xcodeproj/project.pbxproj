@@ -20,6 +20,7 @@
 		BC0B7DD21C05B8BC00897BDC /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B7DD11C05B8BC00897BDC /* OrderModel.m */; };
 		BC0B7DD51C05B92700897BDC /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B7DD41C05B92700897BDC /* ProductModel.m */; };
 		BC0B7DD81C05BBE600897BDC /* OrderModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B7DD71C05BBE600897BDC /* OrderModel1.m */; };
+		BCA0CD9A1C33C71D00ADC181 /* MYClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA0CD991C33C71D00ADC181 /* MYClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		BC0B7DD41C05B92700897BDC /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
 		BC0B7DD61C05BBE600897BDC /* OrderModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel1.h; sourceTree = "<group>"; };
 		BC0B7DD71C05BBE600897BDC /* OrderModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel1.m; sourceTree = "<group>"; };
+		BCA0CD981C33C71D00ADC181 /* MYClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYClass.h; sourceTree = "<group>"; };
+		BCA0CD991C33C71D00ADC181 /* MYClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				BC0B7D9D1C05B1CB00897BDC /* AppDelegate.m */,
 				BC0B7DCC1C05B53C00897BDC /* CountryModel.h */,
 				BC0B7DCD1C05B53C00897BDC /* CountryModel.m */,
+				BCA0CD981C33C71D00ADC181 /* MYClass.h */,
+				BCA0CD991C33C71D00ADC181 /* MYClass.m */,
 				BC0B7D9F1C05B1CB00897BDC /* ViewController.h */,
 				BC0B7DA01C05B1CB00897BDC /* ViewController.m */,
 				BC0B7DA21C05B1CB00897BDC /* Main.storyboard */,
@@ -373,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA0CD9A1C33C71D00ADC181 /* MYClass.m in Sources */,
 				BC0B7DA11C05B1CB00897BDC /* ViewController.m in Sources */,
 				BC0B7DD81C05BBE600897BDC /* OrderModel1.m in Sources */,
 				BC0B7DD51C05B92700897BDC /* ProductModel.m in Sources */,
